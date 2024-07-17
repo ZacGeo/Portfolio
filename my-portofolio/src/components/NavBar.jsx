@@ -8,9 +8,10 @@ const Navbar = () => {
           <img src={logo} alt="logo"  className="w-20 h-20 rounded-full " />
        </div>
        <div className="m-8 flex items-center justify-center gap-4 text-3xl">
-        <FaGithub />
-        <FaLinkedin />
-        <FaDiscord />
+         <a href="https://github.com/ZacGeo" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+         <a href="https://www.linkedin.com/in/george-zacharopoulos-2a87402a0/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+         <a href="https://discordapp.com/users/zacha27" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
+  
        </div>
     </nav>
     );
