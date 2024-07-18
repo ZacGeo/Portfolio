@@ -6,3 +6,18 @@
 :root{
     font-family: "Rubik", sans-serif;
 }
+
+@keyframes moveFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-move-fade-in {
+    animation: moveFadeIn 1s ease-out forwards;
+  }
